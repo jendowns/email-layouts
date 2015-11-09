@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<title>Insert Title Here</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style type="text/css">
+
+    /* client-specific handlers from Litmus */
+    #outlook a{padding:0;} /* "view in browser" in outlook */
+    .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* hotmail will display in full width */
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* hotmail will use standard spacing */
+    body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* keep font sizes */
+    table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* no spacing between tables in outlook */
+    img{-ms-interpolation-mode:bicubic;} /* smooth rendering in IE */
+
+    /* normalize */
+    body{margin:0; padding:0;}
+    img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+    table{border-collapse:collapse !important;}
+    body{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+    /* no iOS blue links */
+    .appleGrayLink a {color:#92999F !important; text-decoration: none;}
+    .appleRedLink a {color:#EB2D3E !important; text-decoration: none;}
+    .appleBlueLink a {color:#003E48 !important; text-decoration: none;}
+    .appleGreenLink a {color:#C2D52F !important; text-decoration: none;}
+    
+    /* for mobile */
+    @media screen and (max-width: 525px) {
+
+        /* fluid tables */
+        table[class="wrapper"]{width:100% !important;}
+
+        /* shift the logo */
+        td[class="logo"]{
+            text-align: left;
+            padding: 20px 0 20px 0 !important;
+        }
+
+        td[class="logo"] img{margin:0 auto!important;}
+
+        /* hide content on mobile */
+        td[class="mobile-hide"]{display:none;}
+
+        img[class="mobile-hide"]{display: none !important;}
+
+        img[class="img-max"]{
+            max-width: 100% !important;
+            width: 100% !important;
+            height:auto !important;
+        }
+
+        /* use full-width tables */
+        table[class="responsive-table"]{width:100%!important;}
+
+        /* mobile padding adjustments */
+        td[class="padding"]{padding: 10px 5% 15px 5% !important;}
+
+        td[class="padding-copy"]{
+            padding: 10px 5% 10px 5% !important;
+            text-align: center;
+        }
+
+        td[class="section-padding"]{padding: 50px 15px 50px 15px !important;}
+
+        /* mobile buttons */
+        table[class="mobile-button-container"]{
+            margin:0 auto;
+            width:100% !important;
+        }
+
+        a[class="mobile-button"]{
+            width:80% !important;
+            padding: 15px !important;
+            border: 0 !important;
+            font-size: 16px !important;
+        }
+    }
+</style>  
+
+</head>
+<body style="margin: 0; padding: 0;">
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#fff">
+
+            <div class="mktEditable" id="preheaderText">
+                <div style="font-size: 1px; color: #fff; line-height: 1px; font-family: Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+                    This is an example of preheader text that would appear in the subject line/preview.
+                </div>
+            </div>
+            <div align="center" style="padding: 0px 15px 0px 15px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="500" class="wrapper">
+                    <tr>
+                        <td style="padding: 20px 0px 30px 0px;" class="logo">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td bgcolor="#fff" width="100" align="left">
+                                        <a href="#" target="_blank">
+                                            <img alt="Logo" src="http://jendowns.com/_/logo.jpg" width="160" height="40" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #fff; font-size: 16px;" border="0">
+                                        </a>
+                                    </td>
+                                    <td bgcolor="#fff" width="400" align="right" class="mobile-hide">
+                                        <table border="0" cellpadding="0" cellspacing="0">
+                                           <tr>
+                                                <td align="right" class="appleGrayLink" style="padding: 0 0 5px 0; font-size: 12px; font-family: Helvetica, Arial, sans-serif; color: #92999F; text-decoration: none;"><a class="appleGrayLink" href="{{system.viewAsWebpageLink}}" style="color: #92999F; text-decoration: underline;">View in browser</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    </tr>
+</table>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#00806D" align="center" style="padding: 40px 15px 40px 15px;" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
+                <tr>
+                    <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center" style="font-size: 24px; font-family: Helvetica, Arial, sans-serif; color: #fff; font-weight:bold; padding-top: 30px;" class="padding-copy">
+                                                <div class="mktEditable" id="section1-headingCopy">
+                                                    Email Template 4
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #fff;" class="padding-copy">
+                                                <div class="mktEditable" id="section1-bodyCopy">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing <strong>emphasis</strong> lit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, <a class="appleGreenLink" href="http://www.Google.com" style="font-family: Helvetica, Arial, sans-serif; font-size: 15px;color:#C2D52F;font-weight:bold;text-decoration:underline;">hyperlink</a> a faucibus libero lacus a est. Aenean at mollis ipsum.
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing lit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.
+                                                    </p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                        <tr>
+                                            <td align="center" style="padding: 25px 0 0 0;" class="padding-copy">
+                                                <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                    <tr>
+                                                        <td align="center">
+                                                        <div class="mktEditable" id="section1-buttonLink">
+                                                            <a href="#" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #fff; text-decoration: none; background-color: #C2D52F; border-top: 15px solid #C2D52F; border-bottom: 15px solid #C2D52F; border-left: 25px solid #C2D52F; border-right: 25px solid #C2D52F; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Optional Button</a>
+                                                        </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+           </table>
+        </td>
+    </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#eee" align="center" style="padding: 40px 15px 40px 15px;" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
+                <tr>
+                    <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                           <tr>
+                                <td class="padding-copy">
+                                    <div class="mktEditable" id="section2-image1">
+                                        <a href="#" target="_blank">
+                                            <img src="http://jendowns.com/_/img-1col.jpg" width="500" height="140" border="0" alt="Insert alt text here" style="display: block; color: #666666;  font-family: Helvetica, arial, sans-serif; font-size: 16px;" class="img-max">
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center" style="font-size: 24px; font-family: Helvetica, Arial, sans-serif; color: #EB2D3E; font-weight:bold; padding-top: 30px;" class="padding-copy">
+                                                <div class="mktEditable" id="section2-headingCopy1">
+                                                    Email Template 4
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" style="font-size: 20px; font-family: Garamond, Serif; color: #EB2D3E; font-weight:normal; padding-bottom: 20px;" class="padding-copy">
+                                                <div class="mktEditable" id="section2-subheadingCopy1">
+                                                    Subtitle for Email Template 4
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">
+                                                <div class="mktEditable" id="section2-bodyCopy1">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing <strong>emphasis</strong> lit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, <a class="appleRedLink" href="http://www.Google.com" style="font-family: Helvetica, Arial, sans-serif; font-size: 15px;color:#EB2D3E;font-weight:bold;text-decoration:underline;">hyperlink</a> a faucibus libero lacus a est. Aenean at mollis ipsum.
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing lit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.
+                                                    </p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="padding: 0 0 60px 0;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                        <tr>
+                                            <td align="center" style="padding: 25px 0 0 0;" class="padding-copy">
+                                                <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                    <tr>
+                                                        <td align="center">
+                                                        <div class="mktEditable" id="section2-buttonLink1">
+                                                            <a href="#" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #fff; text-decoration: none; background-color: #EB2D3E; border-top: 15px solid #EB2D3E; border-bottom: 15px solid #EB2D3E; border-left: 25px solid #EB2D3E; border-right: 25px solid #EB2D3E; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Learn More</a>
+                                                        </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="padding-copy">
+                                    <div class="mktEditable" id="section2-image2">
+                                        <a href="#" target="_blank">
+                                            <img src="http://jendowns.com/_/img-1col.jpg" width="500" height="140" border="0" alt="Insert alt text here" style="display: block; color: #666666;  font-family: Helvetica, arial, sans-serif; font-size: 16px;" class="img-max">
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center" style="font-size: 24px; font-family: Helvetica, Arial, sans-serif; color: #EB2D3E; font-weight:bold; padding-top: 30px;" class="padding-copy">
+                                                <div class="mktEditable" id="section2-headingCopy2">
+                                                    Email Template 4
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" style="font-size: 20px; font-family: Garamond, Serif; color: #EB2D3E; font-weight:normal; padding-bottom: 20px;" class="padding-copy">
+                                                <div class="mktEditable" id="section2-subheadingCopy2">
+                                                    Subtitle for Email Template 4
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">
+                                                <div class="mktEditable" id="section2-bodyCopy2">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing <strong>emphasis</strong> lit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, <a class="appleRedLink" href="http://www.Google.com" style="font-family: Helvetica, Arial, sans-serif; font-size: 15px;color:#EB2D3E;font-weight:bold;text-decoration:underline;">hyperlink</a> a faucibus libero lacus a est. Aenean at mollis ipsum.
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing lit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.
+                                                    </p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                        <tr>
+                                            <td align="center" style="padding: 25px 0 0 0;" class="padding-copy">
+                                                <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                    <tr>
+                                                        <td align="center">
+                                                        <div class="mktEditable" id="section2-buttonLink2">
+                                                            <a href="#" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #fff; text-decoration: none; background-color: #EB2D3E; border-top: 15px solid #EB2D3E; border-bottom: 15px solid #EB2D3E; border-left: 25px solid #EB2D3E; border-right: 25px solid #EB2D3E; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Learn More</a>
+                                                        </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+           </table>
+        </td>
+    </tr>
+</table>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#00556F" align="center" style="padding: 40px 15px 40px 15px;" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
+                <tr>
+                    <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="center" style="font-size: 24px; font-family: Helvetica, Arial, sans-serif; color: #fff; font-weight:bold; padding-top: 30px;" class="padding-copy">
+                                                <div class="mktEditable" id="section3-headingCopy">
+                                                    Email Template 4
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #fff;" class="padding-copy">
+                                                <div class="mktEditable" id="section3-bodyCopy">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing <strong>emphasis</strong> lit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, <a class="appleRedLink" href="http://www.Google.com" style="font-family: Helvetica, Arial, sans-serif; font-size: 15px;color:#C2D52F;font-weight:bold;text-decoration:underline;">hyperlink</a> a faucibus libero lacus a est. Aenean at mollis ipsum.
+                                                    </p>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing lit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.
+                                                    </p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                        <tr>
+                                            <td align="center" style="padding: 25px 0 0 0;" class="padding-copy">
+                                                <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                                                    <tr>
+                                                        <td align="center">
+                                                        <div class="mktEditable" id="section3-buttonLink">
+                                                            <a href="#" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #fff; text-decoration: none; background-color: #C2D52F; border-top: 15px solid #C2D52F; border-bottom: 15px solid #C2D52F; border-left: 25px solid #C2D52F; border-right: 25px solid #C2D52F; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Optional Button</a>
+                                                        </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+           </table>
+        </td>
+    </tr>
+</table>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#fff" align="center" style="padding: 20px 20px;">
+            <table width="500" border="0" cellspacing="0" cellpadding="0" align="center" class="responsive-table">
+                <tr>
+                    <td align="center" style="padding: 5px; font-size: 12px; font-family: Helvetica, Arial, sans-serif; color: #fff; text-decoration: none; white-space: nowrap;">
+                        <a href="#"><img src="http://jendowns.com/_/twitter.jpg" alt="Twitter"></a>
+                        &nbsp; 
+                        <a href="#"><img src="http://jendowns.com/_/flickr.jpg" alt="Flickr"></a>
+                        &nbsp; 
+                        <a href="#"><img src="http://jendowns.com/_/linkedin.jpg" alt="LinkedIn"></a>
+                        &nbsp; 
+                        <a href="#"><img src="http://jendowns.com/_/googleplus.jpg" alt="Google+"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; color: #003E48; text-decoration: none;">
+                        <a  class="appleBlueLink" href="mailto:info@Google.com" style="color: #003E48; text-decoration: underline;">
+                            info@Google.com
+                        </a>
+                        <span style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;">
+                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                        </span>
+                        <a  class="appleBlueLink" href="http://www.Google.com" style="color: #003E48; text-decoration: underline;">
+                            www.Google.com
+                        </a>
+                    </td>
+                </tr>
+ 
+                <tr>
+                    <td align="center" style="padding: 5px; font-size: 12px; font-family: Helvetica, Arial, sans-serif; color: #003E48; text-decoration: none;">
+                        <span style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;">
+                            &copy; 2015 Google
+                        </span>
+                        <span style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;">
+                            &nbsp;&nbsp;|&nbsp;&nbsp;
+                        </span>
+                        <!-- keep appleBlueLink in case iOS converts address -->
+                        <span class="appleBlueLink" style="color: #003E48; text-decoration: none;">
+                            10801 N MoPac Expy, Bldg 3, Ste 740, Austin, TX 78759
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
