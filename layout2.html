@@ -1,6 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<!DOCTYPE html>
 <head>
 
 <title>Insert Title Here</title>
@@ -27,9 +25,9 @@
 
     /* no iOS blue links */
     .appleGrayLink a {color:#92999F !important; text-decoration: none;}
-    .appleRedLink a {color:#EB2D3E !important; text-decoration: none;}
-    .appleBlueLink a {color:#003E48 !important; text-decoration: none;}
-    .appleGreenLink a {color:#C2D52F !important; text-decoration: none;}
+    .appleRedLink a {color:#ff1654 !important; text-decoration: none;}
+    .appleBlueLink a {color:#247ba0 !important; text-decoration: none;}
+    .appleGreenLink a {color:#f3ffbd !important; text-decoration: none;}
     
     /* for mobile */
     @media screen and (max-width: 525px) {
@@ -92,11 +90,8 @@
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
         <td bgcolor="#fff">
-            
-            <div class="mktEditable" id="preheaderText">
-                <div style="font-size: 1px; color: #fff; line-height: 1px; font-family: Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
-                    This is an example of preheader text that would appear in the subject line/preview.
-                </div>
+            <div style="font-size: 1px; color: #fff; line-height: 1px; font-family: Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+                This is an example of preheader text that would appear in the subject line/preview.
             </div>
             <div align="center" style="padding: 0px 15px 0px 15px;">
                 <table border="0" cellpadding="0" cellspacing="0" width="500" class="wrapper">
@@ -105,9 +100,10 @@
                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                 <tr>
                                     <td bgcolor="#fff" width="100" align="left">
-                                        <a href="#" target="_blank">
-                                            <img alt="Logo" src="http://jendowns.com/_/logo.jpg" width="160" height="40" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #fff; font-size: 16px;" border="0">
-                                        </a>
+                                        <!-- logo image would be here, use logo class -->
+                                        <div style="width:120px;height:40px;margin-right:2px;background-color:#b2dbbf;display:inline-block;">
+                                            &nbsp;
+                                        </div>
                                     </td>
                                     <td bgcolor="#fff" width="400" align="right" class="mobile-hide">
                                         <table border="0" cellpadding="0" cellspacing="0">
@@ -136,10 +132,9 @@
                         <table width="100%" border="0" cellspacing="0" cellpadding="0">
                            <tr>
                                 <td class="padding-copy">
-                                    <div class="mktEditable" id="section1-image">
-                                        <a href="#" target="_blank">
-                                            <img src="http://jendowns.com/_/img-1col.jpg" width="500" height="140" border="0" alt="Insert alt text here" style="display: block; color: #666666;  font-family: Helvetica, arial, sans-serif; font-size: 16px;" class="img-max">
-                                        </a>
+                                    <!-- Use a full width 500px image with img-max class; div is just for demo -->
+                                    <div style="width:500px;height:120px;background-color:#dadada;display:block;">
+                                        &nbsp;
                                     </div>
                                 </td>
                             </tr>
@@ -147,30 +142,23 @@
                                 <td>
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                         <tr>
-                                            <td align="center" style="font-size: 24px; font-family: Helvetica, Arial, sans-serif; color:#EB2D3E; font-weight:bold; padding-top: 30px;" class="padding-copy">
-                                                <div class="mktEditable" id="section1-headingCopy">
-                                                    Email Template 2
-                                                </div>
+                                            <td align="center" style="font-size: 24px; font-family: Helvetica, Arial, sans-serif; color:#ff1654; font-weight:bold; padding-top: 30px;" class="padding-copy">
+                                                Section 1
                                             </td>
                                         </tr>
                                         <tr>
                                             <td align="left" style="font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">
-                                                <div class="mktEditable" id="section1-bodyCopy">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing <strong>emphasis</strong> lit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, <a class="appleRedLink" href="http://www.Google.com" style="font-family: Helvetica, Arial, sans-serif; font-size: 15px;color:#EB2D3E;font-weight:bold;text-decoration:underline;">hyperlink</a> a faucibus libero lacus a est. Aenean at mollis ipsum.
-                                                    </p>
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing lit. Sed varius, leo a ullamcorper feugiat, <strong>emphasis</strong> ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.
-                                                    </p>
-                                                </div>
+                                                <p>
+                                                    <strong>Cupcake ipsum</strong> dolor sit. Amet cheesecake pie sweet sweet tootsie roll. Halvah powder <a class="appleRedLink" href="#" style="font-family: Helvetica, Arial, sans-serif; font-size: 15px;color:#ff1654;font-weight:bold;text-decoration:underline;">hyperlink</a>  pudding cake sweet roll gummies cheesecake marshmallow dessert.
+                                                </p>
+                                                <p>
+                                                    Gummies marzipan muffin jelly beans. Gummi bears bears biscuit brownie. Chocolate chupa chups tiramisu biscuit.
+                                                </p>
                                             </td>
                                         </tr>
                                     </table>
                                 </td>
                             </tr>
-
-                            
-                            <!--- BEGIN OPTIONAL BUTTON -->
                             <tr>
                                 <td align="center">
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
@@ -179,9 +167,7 @@
                                                 <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
                                                     <tr>
                                                         <td align="center">
-                                                            <div class="mktEditable" id="section1-buttonLink">
-                                                                <a href="#" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #fff; text-decoration: none; background-color: #EB2D3E; border-top: 15px solid #EB2D3E; border-bottom: 15px solid #EB2D3E; border-left: 25px solid #EB2D3E; border-right: 25px solid #EB2D3E; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Optional Button</a>
-                                                            </div>
+                                                            <a href="#" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #fff; text-decoration: none; background-color: #ff1654; border-top: 15px solid #ff1654; border-bottom: 15px solid #ff1654; border-left: 25px solid #ff1654; border-right: 25px solid #ff1654; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Check It Out</a>
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -190,10 +176,6 @@
                                     </table>
                                 </td>
                             </tr>
-                            <!--- END OPTIONAL BUTTON -->
-
-
-
                         </table>
                     </td>
                 </tr>
@@ -205,7 +187,7 @@
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
-        <td bgcolor="#00806D" align="center" style="padding: 40px 15px 40px 15px;" class="section-padding">
+        <td bgcolor="#4aac9b" align="center" style="padding: 40px 15px 40px 15px;" class="section-padding">
             <table border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
                 <tr>
                     <td>
@@ -215,16 +197,12 @@
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                         <tr>
                                             <td align="center" style="font-size: 24px; font-family: Helvetica, Arial, sans-serif; color: #fff; font-weight:bold; padding-top: 20px; padding-bottom:5px;" class="padding-copy">
-                                                <div class="mktEditable" id="section2-headingCopy">
-                                                    Email Template 2
-                                                </div>
+                                                Section 2
                                             </td>
                                         </tr>
                                         <tr>
                                             <td align="center" style="font-size: 20px; font-family: Garamond, Serif; color: #fff; font-weight:normal; padding-bottom: 20px;" class="padding-copy">
-                                                <div class="mktEditable" id="section2-subheadingCopy">
-                                                    Subtitle for Email Template 2
-                                                </div>
+                                                Subheading for Section 2
                                             </td>
                                         </tr>
                                     </table>
@@ -240,7 +218,7 @@
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
-        <td bgcolor="#00556F" align="center" style="padding: 40px 15px 40px 15px;" class="section-padding">
+        <td bgcolor="#247ba0" align="center" style="padding: 40px 15px 40px 15px;" class="section-padding">
             <table border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
                 <tr>
                     <td>
@@ -250,29 +228,22 @@
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                         <tr>
                                             <td align="center" style="font-size: 24px; font-family: Helvetica, Arial, sans-serif; color: #fff; font-weight:bold; padding-top: 30px;" class="padding-copy">
-                                                <div class="mktEditable" id="section3-headingCopy">
-                                                    Email Template 2
-                                                </div>
+                                                Section 3
                                             </td>
                                         </tr>
                                         <tr>
                                             <td align="left" style="font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #fff;" class="padding-copy">
-                                                <div class="mktEditable" id="section3-bodyCopy">
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing <strong>emphasis</strong> lit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, <a class="appleGreenLink" href="http://www.Google.com" style="font-family: Helvetica, Arial, sans-serif; font-size: 15px;color:#C2D52F;font-weight:bold;text-decoration:underline;">hyperlink</a> a faucibus libero lacus a est. Aenean at mollis ipsum.
-                                                    </p>
-                                                    <p>
-                                                        Lorem ipsum dolor sit amet, consectetur adipiscing lit. Sed varius, leo a ullamcorper <strong>emphasis</strong> feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.
-                                                    </p>
-                                                </div>
+                                                <p>
+                                                    <strong>Cupcake ipsum</strong> dolor sit. Amet cheesecake pie sweet sweet tootsie roll. Halvah powder <a class="appleGreenLink" href="#" style="font-family: Helvetica, Arial, sans-serif; font-size: 15px;color:#f3ffbd;font-weight:bold;text-decoration:underline;">hyperlink</a>  pudding cake sweet roll gummies cheesecake marshmallow dessert.
+                                                </p>
+                                                <p>
+                                                    Gummies marzipan muffin jelly beans. Gummi bears bears biscuit brownie. Chocolate chupa chups tiramisu biscuit.
+                                                </p>
                                             </td>
                                         </tr>
                                     </table>
                                 </td>
                             </tr>
-
-
-                            <!--- BEGIN OPTIONAL BUTTON -->
                             <tr>
                                 <td align="center">
                                     <table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
@@ -281,9 +252,7 @@
                                                 <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
                                                     <tr>
                                                         <td align="center">
-                                                            <div class="mktEditable" id="section3-buttonLink">
-                                                                <a href="#" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #fff; text-decoration: none; background-color: #C2D52F; border-top: 15px solid #C2D52F; border-bottom: 15px solid #C2D52F; border-left: 25px solid #C2D52F; border-right: 25px solid #C2D52F; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Optional Button</a>
-                                                            </div>
+                                                            <a href="#" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #fff; text-decoration: none; background-color: #70c1b3; border-top: 15px solid #70c1b3; border-bottom: 15px solid #70c1b3; border-left: 25px solid #70c1b3; border-right: 25px solid #70c1b3; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; display: inline-block;" class="mobile-button">Check It Out</a>
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -292,10 +261,6 @@
                                     </table>
                                 </td>
                             </tr>
-                            <!--- END OPTIONAL BUTTON -->
-
-
-
                         </table>
                     </td>
                 </tr>
@@ -310,32 +275,31 @@
         <td bgcolor="#fff" align="center" style="padding: 20px 20px;">
             <table width="500" border="0" cellspacing="0" cellpadding="0" align="center" class="responsive-table">
                 <tr>
-                    <td align="center" style="padding: 5px; font-size: 12px; font-family: Helvetica, Arial, sans-serif; color: #fff; text-decoration: none; white-space: nowrap;">
-                        <a href="#"><img src="http://jendowns.com/_/twitter.jpg" alt="Twitter"></a>
-                        &nbsp; 
-                        <a href="#"><img src="http://jendowns.com/_/flickr.jpg" alt="Flickr"></a>
-                        &nbsp; 
-                        <a href="#"><img src="http://jendowns.com/_/linkedin.jpg" alt="LinkedIn"></a>
-                        &nbsp; 
-                        <a href="#"><img src="http://jendowns.com/_/googleplus.jpg" alt="Google+"></a>
+                    <td align="center" style="padding: 5px; font-size: 12px; font-family: Helvetica, Arial, sans-serif; color: #fff; text-decoration: none; white-space: nowrap; padding-bottom:20px;">
+                        <!-- social media icons (but with images.. these divs are for demo purposes) -->
+                        <div style="width:20px;height:20px;margin-right:2px;background-color:#70c1b3;display:inline-block;">
+                        &nbsp;
+                        </div>
+                        <div style="width:20px;height:20px;margin-right:2px;background-color:#70c1b3;display:inline-block;">
+                        &nbsp;
+                        </div>
+                        <div style="width:20px;height:20px;background-color:#70c1b3;margin-right:2px;display:inline-block;">
+                        &nbsp;
+                        </div>
                     </td>
                 </tr>
                 <tr>
-                    <td align="center" style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; color: #003E48; text-decoration: none;">
-                        <a  class="appleBlueLink" href="mailto:info@Google.com" style="color: #003E48; text-decoration: underline;">
-                            hello@jendowns.com
-                        </a>
+                    <td align="center" style="font-size: 12px; font-family: Helvetica, Arial, sans-serif; color: #92999F; text-decoration: none;">
+                        <a  class="appleBlueLink" href="#" style="color: #247ba0; text-decoration: underline;">Email</a>
                         <span style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;">
                             &nbsp;&nbsp;|&nbsp;&nbsp;
                         </span>
-                        <a  class="appleBlueLink" href="http://www.Google.com" style="color: #003E48; text-decoration: underline;">
-                            www.jendowns.com
-                        </a>
+                        <a  class="appleBlueLink" href="#" style="color: #247ba0; text-decoration: underline;">Website</a>
                     </td>
                 </tr>
  
                 <tr>
-                    <td align="center" style="padding: 5px; font-size: 12px; font-family: Helvetica, Arial, sans-serif; color: #003E48; text-decoration: none;">
+                    <td align="center" style="padding: 5px; font-size: 12px; font-family: Helvetica, Arial, sans-serif; color: #92999F; text-decoration: none;">
                         <span style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;">
                             &copy; 2015
                         </span>
@@ -343,8 +307,8 @@
                             &nbsp;&nbsp;|&nbsp;&nbsp;
                         </span>
                         <!-- keep appleGrayLink in case iOS converts address -->
-                        <span class="appleGrayLink" style="color: #003E48; text-decoration: none;">
-                            1234 Main St, Austin, TX 78731
+                        <span class="appleGrayLink" style="color: #92999F;text-decoration: none;">
+                            Address for CAN-SPAM Compliance
                         </span>
                     </td>
                 </tr>
